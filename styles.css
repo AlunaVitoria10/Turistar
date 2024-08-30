@@ -1,0 +1,73 @@
+body{
+
+    color:whitesmoke;
+    background: white;
+    margin: 20px;
+    font-family: "Bowlby One", sans-serif;
+    margin-bottom: 100px;
+
+}
+
+ header {
+    border-bottom: solid 4px rgba(41, 156, 122, 0.438);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(31, 144, 189);
+    
+}
+
+.chamada {
+
+    background: rgba(212, 137, 51, 0.973);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content:center;
+}
+
+    .chamada-texto {
+
+        margin-right: 40px;
+    }
+
+    h1{
+        font-size:30px;
+    }
+
+    p{
+        font-size:20px;
+    }
+
+    img{
+
+        height:200px;
+    }
+
+    .categoria-videos{
+        display:flex;
+        overflow-x: auto;
+        gap: 20px;
+    }
+
+    .categoria{
+
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+
+    .categoria-videos img {
+    opacity: 0.7;
+    height: 200px;
+
+    }
+
+    .categoria-videos img:hover{
+        opacity: 1.0;
+        border: 1px solid yellow;
+
+    }
+
+    .categoria h2{
+        color:rgb(65,127,189);
+    }
